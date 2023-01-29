@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 5em;
+    position: fixed;
+    z-index: 1;
+}
+
+.navsec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 32em;
+    margin-left: 10px;
+    height: 5em;
+}
+
+.logo>a>img{
+    width: 110px;
+    height: 85px;
+}
+
+.navitm>a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: .4s linear;
+}
+
+.navitm>a:hover{
+    color: #c28d6b;
+}
+
+
+
+/*insert div style here*/
+.container{
+    height: 145em;
+    background-color: #1f1409;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container>h1{
+    color: #fff;
+    margin-top: 100px;
+    font-size: 68px;
+}
+
+.abtussecter{
+    width: 50em;
+    margin:  40px auto 0;
+}
+
+.slidercontainer{
+    margin-top: 150px;
+}
+
+.slidercontainer>h1{
+    font-size: 68px;
+    color: #fff;
+}
+
+.pic>img{
+    width: 100%;
+    height: 29em;
+}
+
+.herdesc{
+    color: #fff;
+    text-align: justify;
+    width: 100%;
+    margin: 20px auto 0;
+    font-size: 28px;
+
+}
+
+.sliderslidect{
+    width: 75%;
+    height: 40em;
+    margin-top: 40px;
+    margin: 80px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideitms{
+    height: 40em;
+}
+
+.prev,.next{
+    position: absolute;
+    text-decoration: none;
+    font-size: 70px;
+    color: rgb(198, 198, 198);
+    cursor: pointer;
+}
+
+.prev{
+    left: 0;
+    top:  40%;
+}
+
+.next{
+    right: 0;
+    top: 40%;
+}
+
+.slideitms>img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    filter: grayscale(.6);
+    transition: .3s linear;
+}
+
+.slideitms>img:hover{
+    filter: grayscale(0);
+}
+
+.name{
+    color: #fff;
+    font-size: 50px;
+    margin: 20px auto 40px;
+}
+
+.role{
+    background-image: linear-gradient(90deg,#f75f00,#d1a68c);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0 auto 50px;
+}
+
+.slideitms>i{
+    background-image: linear-gradient(90deg,#f75f00,#d1a68c);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 25px;
+}
+
+.anmation{
+    animation-name: animate;
+    animation-duration: 2s;
+}
+
+@keyframes animate{
+    from{opacity: .2}
+    to{opacity: 1}
+}
+
+.footer{
+    background-color: #684833;
+    height: 15em;
+    color: white;
+}
+
+.footerfb{
+    font-size: 60px;
+    color: white;
+    margin: 10px 0 10px 20px;
+}
+
+.container1{
+    border-bottom: 2px solid #fff;
+}
+
+.container2{
+    text-align: end;
+}
+
+
